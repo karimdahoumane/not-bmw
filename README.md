@@ -1,38 +1,50 @@
-# create-svelte
+# Not BMW
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to Not BMW, an eco-friendly static website that features a collection of vehicles. This project is built using Svelte, TypeScript and Tailwind CSS to provide a smooth and responsive user experience while using eco-friendly practices.
 
-## Creating a project
+## Technology stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Try it out
 
-## Developing
+### Live demo
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+https://www.not-bmw.site/
 
-```bash
-npm run dev
+### Local demo
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+Clone the project
 
 ```bash
-npm run build
+  git clone https://github.com/karimdahoumane/not-bmw.git
 ```
 
-You can preview the production build with `npm run preview`.
+Go to the project directory
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+  cd not-bmw
+```
+
+Install dependencies
+
+```bash
+  pnpm install
+```
+
+Start the server
+
+```bash
+  pnpm run dev
+```
+
+Open your browser at http://localhost:5173/
+
+## Author
+
+- [@3kezoh](https://github.com/3kezoh)
+- [@maheryy](https://github.com/maheryy)
+- [@karimdahoumane](https://github.com/karimdahoumane)
